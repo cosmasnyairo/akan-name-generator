@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akan Name Generator</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-100">
+  <div class="flex justify-center items-center h-screen">
+    <div class="bg-white p-6 rounded-lg shadow-md w-96">
+      <h1 class="text-2xl font-semibold mb-4">Akan Name Generator</h1>
+      
+      <div class="form-group">
+        <label for="birthdate" class="form-label">Enter Your Birthday:</label>
+        <input type="date" id="birthdate" class="form-input">
+      </div>
+      
+      <div class="form-group">
+        <label for="gender" class="form-label">Choose Your Gender:</label>
+        <select id="gender" class="form-input">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      
+      <button id="generateBtn" class="form-button">Get Akan Name</button>
+      
+      <div id="result" class="result"></div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
